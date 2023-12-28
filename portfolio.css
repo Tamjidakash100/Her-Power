@@ -1,0 +1,43 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a:hover{
+    text-decoration: none;
+}
+.hero-title{
+    margin-top: 150px;
+}
+.hero-border{
+    border: 3px solid blue;
+}
+.seemore{
+    color: brown;
+    padding: 3px;
+}
+.seemore:hover{
+    color: white;
+    background-color: blue;
+}
+.footer{
+    border: 3px solid red;
+}
+.cat{
+    margin-top: 0;
+    position: absolute;
+    background-color: brown;
+    display: none;
+}
+.cat li{
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+.cat li a{
+    color: black;
+}
+.dropdown:hover .cat{
+    display: block;
+}

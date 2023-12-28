@@ -1,0 +1,12 @@
+.flex-container{
+    height: 1000px;
+    font-size: 40px;
+    display: flex;
+    align-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.item1{
+    display: flex;
+    align-items: center;
+}
