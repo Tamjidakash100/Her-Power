@@ -53,34 +53,9 @@
    height: 64px;
    width: 64px;
    position: relative;
- }
+   color: white;
+ } 
  label span {
-   border-radius: 15%;
-   height: 3px;
-   width: 32px;
-   background-color: white;
    position: absolute;
-   top: 50%;
-   left: 50%;
-   margin-left: -15px;
+   margin-top: 25px;
  }
-
- label span:before {
-   border-radius: 15%;
-   position: absolute;
-   content: "";
-   height: 100%;
-   width: 100%;
-   background-color: white;
-   top: -400%;
- }
- label span:after {
-   border-radius: 15%;
-   position: absolute;
-   content: "";
-   height: 100%;
-   width: 100%;
-   background-color: white;
-   top: 400%;
- }
- 
